@@ -26,8 +26,8 @@ export default function BookPage() {
       <div style={{ display: 'flex', gap: '2.5rem', marginBottom: '2.5rem', flexWrap: 'wrap' }}>
         {cover && <img src={cover} alt={book.title} style={{ width: '140px', height: '210px', objectFit: 'cover', border: '1px solid var(--border)', flexShrink: 0 }} />}
         <div style={{ flex: 1, minWidth: '200px' }}>
-          <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.4rem, 4vw, 2rem)', lineHeight: 1.2, marginBottom: '0.75rem' }}>{book.title}</h1>
-          <p style={{ color: 'var(--muted)', fontStyle: 'italic', marginBottom: '0.5rem', fontSize: '1rem' }}>{getAuthorDisplay(book)}</p>
+          <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.6rem, 4vw, 2.4rem)', lineHeight: 1.2, marginBottom: '0.75rem' }}>{book.title}</h1>
+          <p style={{ color: 'var(--muted)', fontStyle: 'italic', marginBottom: '0.5rem', fontSize: '1.15rem' }}>{getAuthorDisplay(book)}</p>
           <p style={{ color: 'var(--sepia)', fontSize: '0.85rem', marginBottom: '1.5rem' }}>↓ {book.download_count.toLocaleString()} downloads</p>
 
           {readUrl && (

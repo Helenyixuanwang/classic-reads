@@ -20,7 +20,7 @@ export default function HomePage() {
       {/* Hero */}
       <section style={{ textAlign: 'center', marginBottom: '4rem', borderBottom: '1px solid var(--border)', paddingBottom: '3rem' }}>
         <p style={{ fontSize: '0.85rem', letterSpacing: '0.15em', color: 'var(--sepia)', textTransform: 'uppercase', marginBottom: '1rem' }}>Free · Public Domain · Timeless</p>
-        <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', fontWeight: 700, lineHeight: 1.1, marginBottom: '1.5rem', color: 'var(--ink)' }}>
+        <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.8rem, 4vw, 3rem)', fontWeight: 700, lineHeight: 1.1, marginBottom: '1.5rem', color: 'var(--ink)' }}>
           The world's great<br />
           <em style={{ fontStyle: 'italic', color: 'var(--rust)' }}>literature</em>, free.
         </h2>
